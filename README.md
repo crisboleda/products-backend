@@ -27,8 +27,8 @@ API REST para la gestión de productos con operaciones CRUD (Crear, Leer, Actual
 
 ### Paso 1: Clonar el repositorio
 ```bash
-git clone https://github.com/tu_usuario/nombre_proyecto.git
-cd nombre_proyecto
+git clone git@github.com:crisboleda/products-backend.git
+cd products-backend
 ```
 
 ### Paso 2: Instalar dependencias
