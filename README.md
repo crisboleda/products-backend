@@ -48,6 +48,12 @@ DB_NAME=products_db
 NODE_ENV=development
 ```
 
+### Paso 4: Ejecutar SQL creación tabla products
+Ejecutar el siguiente archivo:
+```
+seed.sql
+```
+
 ### ▶️ Ejecutar el Proyecto
 En modo desarrollo:
 ```bash
