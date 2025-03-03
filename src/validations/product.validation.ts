@@ -3,9 +3,9 @@ import { NextFunction, RequestHandler, Request, Response } from "express";
 
 
 export const validateProduct: RequestHandler[] = [
-    body("name").notEmpty().withMessage("Name is required"),
-    body("description").notEmpty().withMessage("Description is required"),
-    body("price").isFloat({ gt: 0 }).withMessage("Price must be greater than 0"),
+    body("name").notEmpty().withMessage("El nombre es obligatorio."),
+    body("description").notEmpty().withMessage("La descripción es obligatoria."),
+    body("price").isFloat({ gt: 0 }).withMessage("El precio debe ser mayor a 0."),
 
     ((req: Request, res: Response, next: NextFunction) => {
         const errors = validationResult(req);
